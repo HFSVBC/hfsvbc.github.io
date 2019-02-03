@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.02f9bc10.chunk.css",
-  "main.js": "/static/js/main.be99d300.chunk.js",
-  "main.js.map": "/static/js/main.be99d300.chunk.js.map",
+  "main.css": "/static/css/main.a25d86bd.chunk.css",
+  "main.js": "/static/js/main.12444e8e.chunk.js",
+  "main.js.map": "/static/js/main.12444e8e.chunk.js.map",
   "static/css/1.7ae694fe.chunk.css": "/static/css/1.7ae694fe.chunk.css",
   "static/js/1.49b6793b.chunk.js": "/static/js/1.49b6793b.chunk.js",
   "static/js/1.49b6793b.chunk.js.map": "/static/js/1.49b6793b.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/all.min.css": "/static/media/fa-solid-900.27603739.svg",
   "static/media/mdb.css": "/static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/header.scss": "/static/media/christopher-gower-291246-unsplash.98380d03.jpg",
+  "static/css/main.a25d86bd.chunk.css.map": "/static/css/main.a25d86bd.chunk.css.map",
   "static/css/1.7ae694fe.chunk.css.map": "/static/css/1.7ae694fe.chunk.css.map",
-  "static/css/main.02f9bc10.chunk.css.map": "/static/css/main.02f9bc10.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d7d49b37705689ba06031847fb2c3472.js": "/precache-manifest.d7d49b37705689ba06031847fb2c3472.js",
+  "precache-manifest.76479dc708068392b98235a72fbb062d.js": "/precache-manifest.76479dc708068392b98235a72fbb062d.js",
   "service-worker.js": "/service-worker.js"
 }
