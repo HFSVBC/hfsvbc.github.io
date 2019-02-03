@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "post-build": "mv build/* docs/ && rm -rf build",
+    "post-build": "rm -rf docs && mv build docs && echo 'website.hugocurado.info' > docs/CNAME" ,
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
