@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBView, MDBMask, MDBContainer, MDBRow } from "mdbreact";
-import "./header.css";
+import "./header.scss";
 
 class Header extends Component {
   render() {

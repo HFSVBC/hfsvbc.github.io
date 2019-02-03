@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
   MDBIcon } from "mdbreact";
-import "./main_menu.css";
+import "./main_menu.scss";
 
 class MainMenu extends Component {
   state = {
