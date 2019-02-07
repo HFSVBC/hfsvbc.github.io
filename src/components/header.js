@@ -6,7 +6,7 @@ import "./header.scss";
 class Header extends Component {
   render() {
     return (
-      <MDBView>
+      <MDBView className="main-header">
         <MDBMask className="d-flex justify-content-center align-items-center gradient">
           <MDBContainer>
             <MDBRow>

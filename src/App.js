@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import { MainMenu } from "./components/main_menu";
-import { Header } from "./components/header";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Home } from "./Containers/home";
+import { Article } from "./Containers/article";
 
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div className="App">
-          <MainMenu/>
-          <Header/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/article/:id" component={Article}/>
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
