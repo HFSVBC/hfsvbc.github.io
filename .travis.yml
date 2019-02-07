@@ -11,6 +11,7 @@ deploy:
   skip_cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  local-dir: build/
+  local-dir: $UPLOAD_DIR
+  fqdn: $CUSTOM_DOMAIN
 on:
   branch: deploy
