@@ -13,5 +13,7 @@ deploy:
   keep-history: true
   local-dir: $UPLOAD_DIR
   fqdn: $CUSTOM_DOMAIN
-on:
-  branch: deploy
+
+branches:
+  only:
+    - master
