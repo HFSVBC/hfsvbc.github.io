@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
-import "./card.scss";
+import "./PostPreview.scss";
 
-class Card extends Component {
+class PostPreview extends Component {
     render() {
         return (
             <MDBCol size="4">
-                <MDBCard style={{ width: "22rem" }}>
+                <MDBCard className="elegant-color-dark">
                     <MDBCardImage className="img-fluid" src={this.props.image} waves />
                     <MDBCardBody>
                         <MDBCardTitle>{this.props.title}</MDBCardTitle>
                         <p className="grey-text">{this.props.date}</p>
-                        <MDBCardText dangerouslySetInnerHTML={{ __html: this.props.content }}>
+                        <MDBCardText className="white-text" dangerouslySetInnerHTML={{ __html: this.props.content }}>
                         </MDBCardText>
-                        <MDBBtn href={this.props.buttonLink}>{this.props.buttonText}</MDBBtn>
+                        <MDBBtn color=" blue-grey darken-4" href={this.props.buttonLink}>{this.props.buttonText}</MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -21,4 +21,4 @@ class Card extends Component {
     }
 }
 
-export { Card }
+export { PostPreview }

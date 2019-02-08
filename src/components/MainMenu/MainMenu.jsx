@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
   MDBIcon } from "mdbreact";
-import "./main_menu.scss";
+import "./MainMenu.scss";
 
 class MainMenu extends Component {
   state = {
@@ -10,6 +10,18 @@ class MainMenu extends Component {
 
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
+  };
+
+  menu_items() {
+    return (
+      this.props.menu_items.map((menu_item) => {
+        return (
+          <MDBNavItem key={menu_item.href}>
+            <MDBNavLink to={menu_item.href}>{menu_item.name}</MDBNavLink>
+          </MDBNavItem>
+        )
+      })
+    )
   }
 
   render() {
@@ -20,16 +32,10 @@ class MainMenu extends Component {
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+          <MDBNavbarNav left>
+            {this.menu_items()}
+          </MDBNavbarNav>
           <MDBNavbarNav right>
-            {/*<MDBNavItem active>*/}
-              {/*<MDBNavLink to="/">Home</MDBNavLink>*/}
-            {/*</MDBNavItem>*/}
-            {/*<MDBNavItem>*/}
-              {/*<MDBNavLink to="#!">Projects</MDBNavLink>*/}
-            {/*</MDBNavItem>*/}
-            {/*<MDBNavItem>*/}
-              {/*<MDBNavLink to="#!">About Me</MDBNavLink>*/}
-            {/*</MDBNavItem>*/}
             <MDBNavItem>
               <a className="waves-effect waves-light nav-link" href="https://twitter.com/hfsvbc" target="_blank"
                  rel="noopener noreferrer">

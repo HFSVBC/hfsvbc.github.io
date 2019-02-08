@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import "./post.scss";
-import articles from "./articles.json";
+import "./Post.scss";
+import articles from "../../data/articles.json";
 
 class Post extends Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class Post extends Component {
             <article>
               <header>
                 <img className="img-fluid" alt={this.state.post.title} src={"../articles_images/" + this.state.post.image}/>
-                <h1>{this.state.post.title}</h1>
+                <h1 className="pt-3">{this.state.post.title}</h1>
                 <p className="grey-text">{this.state.post.date}</p>
               </header>
               <div dangerouslySetInnerHTML={{ __html: this.state.post.content }}></div>

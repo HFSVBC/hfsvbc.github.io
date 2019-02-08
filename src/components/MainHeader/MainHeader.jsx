@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { MDBView, MDBMask, MDBContainer, MDBRow } from "mdbreact";
 import "animate.css/animate.min.css"
-import "./header.scss";
+import "./MainHeader.scss";
 
-class Header extends Component {
+class MainHeader extends Component {
   render() {
     return (
       <MDBView className="main-header">
@@ -23,4 +23,4 @@ class Header extends Component {
   }
 }
 
-export { Header }
+export { MainHeader }

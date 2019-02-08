@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { MDBContainer, MDBRow } from "mdbreact";
-import { Card } from "./card"
+import PostPreview from "../PostPreview";
 
-import "./cards_container.scss";
-import articles from "./articles.json";
+import "./Portfolio.scss";
+import articles from "../../data/articles.json";
 
-class CardsContainer extends Component {
-  cards() {
+class Portfolio extends Component {
+  static posts_preview() {
     return (
       articles.map((article) => {
         return (
-          <Card
+          <PostPreview
             key={article.title.replace(/[^A-Z0-9]+/ig, "_")}
             title={article.title}
             date={article.date}
@@ -26,13 +26,13 @@ class CardsContainer extends Component {
 
   render() {
     return (
-      <MDBContainer className="my-5">
+      <MDBContainer className="my-5" id={this.props.id}>
         <MDBRow>
-          {this.cards()}
+          {Portfolio.posts_preview()}
         </MDBRow>
       </MDBContainer>
     )
   }
 }
 
-export { CardsContainer }
+export { Portfolio }
