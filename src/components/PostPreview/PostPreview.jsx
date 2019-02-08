@@ -5,7 +5,7 @@ import "./PostPreview.scss";
 class PostPreview extends Component {
     render() {
         return (
-            <MDBCol size="4">
+            <MDBCol md="4" sm="6" xs="12" className="my-3">
                 <MDBCard className="elegant-color-dark">
                     <MDBCardImage className="img-fluid" src={this.props.image} waves />
                     <MDBCardBody>
