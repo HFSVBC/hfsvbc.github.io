@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <MainMenu menu_items={this.state.menu_items}/>
+        <MainMenu menu_items={this.state.menu_items} transparent={true}/>
         <MainHeader/>
         <CardsContainer id="portfolio"/>
       </React.Fragment>

@@ -4,13 +4,22 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNav
 import "./MainMenu.scss";
 
 class MainMenu extends Component {
-  state = {
-    isOpen: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      transparent: this.props.transparent,
+      scrolling: this.props.transparent,
+      collapse: false,
+      isWideEnough: false,
+    };
+    this.onClick = this.onClick.bind(this);
+  }
 
-  toggleCollapse = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
+  onClick() {
+    this.setState({
+      collapse: !this.state.collapse,
+    });
+  }
 
   menu_items() {
     return (
@@ -26,12 +35,19 @@ class MainMenu extends Component {
 
   render() {
     return (
-      <MDBNavbar dark expand="md" fixed="top">
+      <MDBNavbar
+        color="elegant-color-dark"
+        fixed="top"
+        dark
+        expand="md"
+        scrolling={this.state.scrolling}
+        transparent={this.state.transparent}
+      >
         <MDBNavbarBrand>
           <MDBNavLink to="/"><strong className="white-text">Hugo Curado</strong></MDBNavLink>
         </MDBNavbarBrand>
-        <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+        {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+        <MDBCollapse isOpen={this.state.collapse} navbar>
           <MDBNavbarNav left>
             {this.menu_items()}
           </MDBNavbarNav>

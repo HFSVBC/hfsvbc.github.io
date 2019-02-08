@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 import "./Post.scss";
 import articles from "../../data/articles.json";
@@ -22,21 +21,14 @@ class Post extends Component {
 
   render() {
     return (
-      <MDBContainer className="padding_main_menu my-5">
-        <MDBRow>
-          <MDBCol size="8">
-            <article>
-              <header>
-                <img className="img-fluid" alt={this.state.post.title} src={"../articles_images/" + this.state.post.image}/>
-                <h1 className="pt-3">{this.state.post.title}</h1>
-                <p className="grey-text">{this.state.post.date}</p>
-              </header>
-              <div dangerouslySetInnerHTML={{ __html: this.state.post.content }}></div>
-            </article>
-          </MDBCol>
-          <MDBCol size="4">.col-4</MDBCol>
-        </MDBRow>
-      </MDBContainer>
+      <article>
+        <header>
+          <img className="img-fluid" alt={this.state.post.title} src={"../articles_images/" + this.state.post.image}/>
+          <h1 className="pt-3">{this.state.post.title}</h1>
+          <p className="grey-text">{this.state.post.date}</p>
+        </header>
+        <div dangerouslySetInnerHTML={{ __html: this.state.post.content }}></div>
+      </article>
     )
   }
 }
