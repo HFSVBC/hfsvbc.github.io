@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://website.hugocurado.info/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Hugo Curado"
