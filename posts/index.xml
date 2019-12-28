@@ -1,0 +1,58 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on Hugo Curado</title>
+        <link>https://www.hugocurado.info/posts/</link>
+        <description>Recent content in Blog on Hugo Curado</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
+        <atom:link href="https://www.hugocurado.info/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Study Aborad Portugal</title>
+            <link>https://www.hugocurado.info/posts/2018/01/study-aborad-portugal/</link>
+            <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+            
+            <guid>https://www.hugocurado.info/posts/2018/01/study-aborad-portugal/</guid>
+            <description>Website developed for Study Abroad Portugal. Based on the CodeIgniter framework and a bootstrap based frontend and backend. The website is divided in two main parts: the visitors area of the website where visitors can get information about the event, news about studying abroad, an institution search engine, what institutions will be present on the next edition of the event and registration. The second half of this website is the institutions area of the website where institutions can get information about the event, metrics on past events and register for the next event.</description>
+            <content type="html"><![CDATA[<p>Website developed for <a href="https://www.studyabroadportugal.pt">Study Abroad Portugal</a>.
+Based on the CodeIgniter framework and a bootstrap based frontend and backend. The
+website is divided in two main parts: the visitors area of the website where visitors
+can get information about the event, news about studying abroad, an institution search
+engine, what institutions will be present on the next edition of the event and registration.
+The second half of this website is the institutions area of the website where institutions
+can get information about the event, metrics on past events and register for the next event.
+The next major iteration of the website will be adding AMP powered webpages to the article pages.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Allele Validation Tool (AVT)</title>
+            <link>https://www.hugocurado.info/posts/2016/06/allele-validation-tool-avt/</link>
+            <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+            
+            <guid>https://www.hugocurado.info/posts/2016/06/allele-validation-tool-avt/</guid>
+            <description>AVT or Allele Validation Tool for whole genome Multilocus Sequence Typing (wgMLST) schemas is a tool that is capable of validating novel alleles found in de novo assemblers by allele calling algorithms. The proper validation of an allele can be of extreme importance, specially in the correct detection of outbreak situations based on wgMLST.
+ Poster Download Abstract Download  This project was developed by me and Margarida Cândido (1) with the help and coordination of Mickael Silva(2), João André Carriço(2) and Francisco M.</description>
+            <content type="html"><![CDATA[<p>AVT or Allele Validation Tool for whole genome Multilocus Sequence Typing (wgMLST) schemas is
+a tool that is capable of validating novel alleles found in de novo assemblers by allele calling
+algorithms. The proper validation of an allele can be of extreme importance, specially in the
+correct detection of outbreak situations based on wgMLST.</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/0B2s_GTQ3DSBnZHdNN0R1M0s1WVk/view?usp=sharing">Poster Download</a></li>
+<li><a href="https://drive.google.com/file/d/0B2s_GTQ3DSBnWDN5MlBhcFcta1U/view?usp=sharing">Abstract Download</a></li>
+</ul>
+<p>This project was developed by me and Margarida Cândido (1) with the help and coordination of
+Mickael Silva(2), João André Carriço(2) and Francisco M. Couto(1).</p>
+<ol>
+<li>LaSIGE, Departamento de Informática, Faculdade de Ciências, Universidade de Lisboa, Lisboa,
+Portugal</li>
+<li>Instituto de Microbiologia, Instituto de Medicina Molecular, Faculdade de Medicina, Universidade
+de Lisboa, Lisboa, Portugal</li>
+</ol>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

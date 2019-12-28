@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Curado</title>
+    <link>https://www.hugocurado.info/</link>
+    <description>Recent content on Hugo Curado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.hugocurado.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://www.hugocurado.info/about/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hugocurado.info/about/</guid>
+      <description>PICTURE: NAME: Hugo Curado
+BIRTH DATE: 29/04/2019
+CITY: Cascais, Portugal
+OCUPATION: DevOps / Full Stack Web Developer @ Runtime Revolution
+ Skills          DOCKER:	(80%) LINUX: (60%)   ###################### ################       AWS: (78%) TERRAFORM: (65%)   ##################### ##################       ANSIBLE: (65%)    ##################      Education [2015 / 2020]</description>
+    </item>
+    
+    <item>
+      <title>Study Aborad Portugal</title>
+      <link>https://www.hugocurado.info/posts/2018/01/study-aborad-portugal/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hugocurado.info/posts/2018/01/study-aborad-portugal/</guid>
+      <description>Website developed for Study Abroad Portugal. Based on the CodeIgniter framework and a bootstrap based frontend and backend. The website is divided in two main parts: the visitors area of the website where visitors can get information about the event, news about studying abroad, an institution search engine, what institutions will be present on the next edition of the event and registration. The second half of this website is the institutions area of the website where institutions can get information about the event, metrics on past events and register for the next event.</description>
+    </item>
+    
+    <item>
+      <title>Allele Validation Tool (AVT)</title>
+      <link>https://www.hugocurado.info/posts/2016/06/allele-validation-tool-avt/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hugocurado.info/posts/2016/06/allele-validation-tool-avt/</guid>
+      <description>AVT or Allele Validation Tool for whole genome Multilocus Sequence Typing (wgMLST) schemas is a tool that is capable of validating novel alleles found in de novo assemblers by allele calling algorithms. The proper validation of an allele can be of extreme importance, specially in the correct detection of outbreak situations based on wgMLST.
+ Poster Download Abstract Download  This project was developed by me and Margarida Cândido (1) with the help and coordination of Mickael Silva(2), João André Carriço(2) and Francisco M.</description>
+    </item>
+    
+  </channel>
+</rss>
