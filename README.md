@@ -1,2 +1,2 @@
 # Hugo Curado - Portfolio
-[![Build Status](https://travis-ci.org/HFSVBC/website.svg?branch=master)](https://travis-ci.org/HFSVBC/website)
+[![Build Status](https://travis-ci.org/HFSVBC/hfsvbc.github.io.svg?branch=deploy)](https://travis-ci.org/HFSVBC/hfsvbc.github.io)
