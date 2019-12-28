@@ -1,0 +1,7 @@
+body > .container > .content > main > div > p{
+	padding: 0 20%;
+}
+
+body > .container > .content > .post > article > .post-content > table{
+	width: 100%;
+}

@@ -1,11 +1,9 @@
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
+dist: xenial
+addons:
+  snaps:
+    - hugo
 script:
-  - yarn build
+  - hugo -D
 deploy:
   provider: pages
   skip_cleanup: true
