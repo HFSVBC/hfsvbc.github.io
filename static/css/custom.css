@@ -1,7 +1,21 @@
-body > .container > .content > main > div > p{
-	padding: 0 20%;
+body > .container > .content > .post > article > .post-content > table{
+  width: 100%;
 }
 
-body > .container > .content > .post > article > .post-content > table{
-	width: 100%;
+/* Bigger than a moble phone styles */
+@media screen and (min-width: 685px) {
+	body > .container > .content > main > div > p{
+  	padding: 0 20%;
+	}
+}
+
+/* Moble phone styles */
+@media screen and (max-width: 684px) {
+	.menu{
+		left: 0;
+	}
+
+	body > .container > .content > main > div > p{
+  	padding: 0 5%;
+	}
 }
