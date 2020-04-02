@@ -1,7 +1,7 @@
 ---
 author:
   name: "Hugo Curado"
-date: 2020-04-02
+date: 2020-04-
 linktitle: Docker as a Development Environment
 type:
 - post
