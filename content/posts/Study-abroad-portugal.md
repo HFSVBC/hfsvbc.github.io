@@ -2,11 +2,11 @@
 author:
   name: "Hugo Curado"
 date: 2018-01-12
-linktitle: Study Aborad Portugal
+linktitle: Study Abroad Portugal
 type:
 - post
 - posts
-title: Study Aborad Portugal
+title: Study Abroad Portugal
 cover: "blog/study_abroad_portugal.png"
 ---
 
