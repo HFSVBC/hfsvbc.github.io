@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Docker as a Development Environment</title>
+      <link>https://www.hugocurado.info/posts/2020/04/docker-as-a-development-environment/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.hugocurado.info/posts/2020/04/docker-as-a-development-environment/</guid>
+      <description>Docker is the leading technology in microservices. As stated by Flexera&amp;rsquo;s State of the Cloud Survey, of February 27, 2019, Docker container adoption is of 57%, AWS&amp;rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to move from bare metal to containers.
+The article will focus on Docker essentials and answering questions like &amp;lsquo;What is Docker?&#39;, &amp;lsquo;Is it a virtualization solution?&#39;, &amp;lsquo;What are images/containers/volumes&amp;hellip;?&#39;.
+Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://www.hugocurado.info/about/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
