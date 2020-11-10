@@ -108,7 +108,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a full stack web developer at Runtime Revolution."
+    subtitle  = "Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a DevOps at iCapital Network."
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
