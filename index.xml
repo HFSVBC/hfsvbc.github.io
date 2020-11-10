@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.hugocurado.info/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hugocurado.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker as a Development Environment</title>
       <link>https://www.hugocurado.info/posts/2020/04/docker-as-a-development-environment/</link>
