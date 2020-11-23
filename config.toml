@@ -58,8 +58,8 @@ disableHugoGeneratorInject = false
   keywords = "homepage, blog, informatics, it, development, programming, devops"
   images = [""]
 
-  homeSubtitle = "Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a full stack web developer at Runtime Revolution."
-
+  homeSubtitle = "Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a DevOps at iCapital Network."
+ 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
 
