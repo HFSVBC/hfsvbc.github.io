@@ -15,24 +15,6 @@ title: About
 **OCUPATION:** Associate DevOps @ [iCapital Network](https://www.icapitalnetwork.com)
 
 ---
-## Skills
-
-**DOCKER:**	(80%) \
-######################
-
-**LINUX:** (60%)\
-################
-
-**AWS:** (78%)\
-#####################
-
-**TERRAFORM:** (65%) \
-##################
-
-**ANSIBLE:** (65%) \
-##################
-
----
 ## Work
 **[Sep 2018 - Nov 2020]** \
 Full Stack Developer @ [Runtime Revolution](https://www.runtime-revolution.com)
