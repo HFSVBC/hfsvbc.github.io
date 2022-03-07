@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Hugo Curado]">
 <meta name="description" content="Docker is the leading technology in microservices. As stated by Flexera&amp;rsquo;s State of the Cloud Survey, of February 27, 2019, Docker container adoption is of 57%, AWS&amp;rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to move from bare metal to containers.
-The article will focus on Docker essentials and answering questions like &amp;lsquo;What is Docker?&#39;, &amp;lsquo;Is it a virtualization solution?&#39;, &amp;lsquo;What are images/containers/volumes&amp;hellip;?&#39;.
+The article will focus on Docker essentials and answering questions like &amp;lsquo;What is Docker?&amp;rsquo;, &amp;lsquo;Is it a virtualization solution?&amp;rsquo;, &amp;lsquo;What are images/containers/volumes&amp;hellip;?&amp;rsquo;.
 Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions." />
 <meta name="keywords" content="homepage, blog, informatics, it, development, programming, devops" />
 <meta name="robots" content="noodp" />
@@ -16,7 +16,7 @@ Some key concepts Containers A container is a standardized unit of software that
 
     <title>
         
-            Docker as a Development Environment :: Hugo Curado  — Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a DevOps at iCapital Network.
+            Docker as a Development Environment :: Hugo Curado  — Studied Information Technologies (IT) at Faculdade de Ciências da Universidade de Lisboa. Currently a DevOps at iCapital.
         
     </title>
 
@@ -47,22 +47,16 @@ Some key concepts Containers A container is a standardized unit of software that
 
 <meta itemprop="name" content="Docker as a Development Environment">
 <meta itemprop="description" content="Docker is the leading technology in microservices. As stated by Flexera&rsquo;s State of the Cloud Survey, of February 27, 2019, Docker container adoption is of 57%, AWS&rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to move from bare metal to containers.
-The article will focus on Docker essentials and answering questions like &lsquo;What is Docker?&#39;, &lsquo;Is it a virtualization solution?&#39;, &lsquo;What are images/containers/volumes&hellip;?&#39;.
-Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions.">
-<meta itemprop="datePublished" content="2020-04-02T00:00:00+00:00" />
+The article will focus on Docker essentials and answering questions like &lsquo;What is Docker?&rsquo;, &lsquo;Is it a virtualization solution?&rsquo;, &lsquo;What are images/containers/volumes&hellip;?&rsquo;.
+Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions."><meta itemprop="datePublished" content="2020-04-02T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-04-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1124">
-<meta itemprop="image" content="https://www.hugocurado.info/"/>
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="wordCount" content="1124"><meta itemprop="image" content="https://www.hugocurado.info/"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.hugocurado.info/"/>
 
 <meta name="twitter:title" content="Docker as a Development Environment"/>
 <meta name="twitter:description" content="Docker is the leading technology in microservices. As stated by Flexera&rsquo;s State of the Cloud Survey, of February 27, 2019, Docker container adoption is of 57%, AWS&rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to move from bare metal to containers.
-The article will focus on Docker essentials and answering questions like &lsquo;What is Docker?&#39;, &lsquo;Is it a virtualization solution?&#39;, &lsquo;What are images/containers/volumes&hellip;?&#39;.
+The article will focus on Docker essentials and answering questions like &lsquo;What is Docker?&rsquo;, &lsquo;Is it a virtualization solution?&rsquo;, &lsquo;What are images/containers/volumes&hellip;?&rsquo;.
 Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions."/>
 
 
@@ -146,8 +140,8 @@ Some key concepts Containers A container is a standardized unit of software that
                 <p>Docker is the leading technology in microservices. As stated by Flexera&rsquo;s State of the Cloud Survey, of February 27,
 2019, Docker container adoption is of 57%, AWS&rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to
 move from bare metal to containers.</p>
-<p>The article will focus on Docker essentials and answering questions like <em>&lsquo;What is Docker?'</em>,
-<em>&lsquo;Is it a virtualization solution?'</em>, <em>&lsquo;What are images/containers/volumes&hellip;?'</em>.</p>
+<p>The article will focus on Docker essentials and answering questions like <em>&lsquo;What is Docker?&rsquo;</em>,
+<em>&lsquo;Is it a virtualization solution?&rsquo;</em>, <em>&lsquo;What are images/containers/volumes&hellip;?&rsquo;</em>.</p>
 <h2 id="some-key-concepts">Some key concepts</h2>
 <h3 id="containers">Containers</h3>
 <p>A container is a standardized unit of software that allows you to run your application independent of host conditions,
@@ -179,30 +173,30 @@ ex: CMD, RUN, COPY, &hellip;), if a layer does not change from the previous buil
 are dockerizing:</p>
 <ul>
 <li>it uses ruby 2.5.7 compiled for the Alpine distribution (a smaller Linux distribution built to be run inside Docker)
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> ruby:2.5.7-alpine AS builder</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> ruby:2.5.7-alpine AS builder</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div></li>
 <li>some arguments that will be used during build time, some of them have predefined values, and there an assignment to env vars
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">ARG</span> BUNDLE_WITHOUT<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ARG</span> FREEZE_BUNDLE<span style="color:#f92672">=</span>true
-<span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> BUNDLE_WITHOUT <span style="color:#e6db74">${</span>BUNDLE_WITHOUT<span style="color:#e6db74">}</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> INSTALL_PATH /app<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="display:flex;"><span><span style="color:#66d9ef">ARG</span> BUNDLE_WITHOUT<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ARG</span> FREEZE_BUNDLE<span style="color:#f92672">=</span>true
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> BUNDLE_WITHOUT <span style="color:#e6db74">${</span>BUNDLE_WITHOUT<span style="color:#e6db74">}</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> INSTALL_PATH /app<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#f92672">[</span>...<span style="color:#f92672">]</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div></li>
 <li>what system dependencies the application has
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">RUN</span> apk add --no-cache alpine-sdk postgresql-client postgresql-dev nodejs yarn <span style="color:#e6db74">${</span>EXTRA_PACKAGES<span style="color:#e6db74">}</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="display:flex;"><span><span style="color:#66d9ef">RUN</span> apk add --no-cache alpine-sdk postgresql-client postgresql-dev nodejs yarn <span style="color:#e6db74">${</span>EXTRA_PACKAGES<span style="color:#e6db74">}</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div></li>
 <li>the gems and js packages installation</li>
 <li>the copy of the application code
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">ADD</span> . .<span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="display:flex;"><span><span style="color:#66d9ef">ADD</span> . .<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div></li>
 <li>that the container will expose port 3000</li>
 <li>and the command it will execute if a command is not specified
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">CMD</span> [<span style="color:#e6db74">&#34;bundle&#34;</span>, <span style="color:#e6db74">&#34;exec&#34;</span>, <span style="color:#e6db74">&#34;puma&#34;</span>, <span style="color:#e6db74">&#34;-C&#34;</span>, <span style="color:#e6db74">&#34;/app/config/puma.rb&#34;</span>]<span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="display:flex;"><span><span style="color:#66d9ef">CMD</span> [<span style="color:#e6db74">&#34;bundle&#34;</span>, <span style="color:#e6db74">&#34;exec&#34;</span>, <span style="color:#e6db74">&#34;puma&#34;</span>, <span style="color:#e6db74">&#34;-C&#34;</span>, <span style="color:#e6db74">&#34;/app/config/puma.rb&#34;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div></li>
 </ul>
 <h3 id="docker-composeyml">docker-compose.yml</h3>
 <script type="application/javascript" src="https://gist.github.com/hfsvbc/b8c9834a38be40e17d204a6e1167447e.js?file=docker-compose.yml"></script>
@@ -234,45 +228,45 @@ service.</p>
 any volumes you have defined.</p>
 <p><em>Disclaimer:</em> this <code>docker-compose.yml</code> configuration mounts your local project folder inside the container project folder, thus removing the
 necessity of building the image at any code change.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose build
-</code></pre></div><p>The second step is to run the app. We have several options:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose build
+</span></span></code></pre></div><p>The second step is to run the app. We have several options:</p>
 <ul>
 <li>Run every service in the foreground
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose up
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose up
+</span></span></code></pre></div></li>
 <li>Run every service in the background
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose up -d
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose up -d
+</span></span></code></pre></div></li>
 <li>Only start a specific service
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose up &lt;service, ex.: app&gt;
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose up &lt;service, ex.: app&gt;
+</span></span></code></pre></div></li>
 </ul>
 <h4 id="tailing-logs">Tailing logs</h4>
 <p>Like the <code>up</code> command also with the <code>logs</code> command, there is the option to tail logs for every service or just one of the services</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose logs -f
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose logs -f &lt;service, ex.: app&gt;
-</code></pre></div><h4 id="executing-a-command-inside-a-running-container">Executing a command inside a running container</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose logs -f
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose logs -f &lt;service, ex.: app&gt;
+</span></span></code></pre></div><h4 id="executing-a-command-inside-a-running-container">Executing a command inside a running container</h4>
 <p>Sometimes you need to execute a command inside a running container. That&rsquo;s the purpose of the <code>exec</code> command</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose exec &lt;service, ex.: app&gt; &lt;command, ex.: top&gt;
-</code></pre></div><h4 id="running-a-command-inside-a-new-container">Running a command inside a new container</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose exec &lt;service, ex.: app&gt; &lt;command, ex.: top&gt;
+</span></span></code></pre></div><h4 id="running-a-command-inside-a-new-container">Running a command inside a new container</h4>
 <p>For some tasks, it is not advised to run a command inside a running container. That&rsquo;s the purpose of the <code>run</code> command</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker-compose run &lt;service, ex.: app&gt; &lt;command, ex.: docker/restore_database.sh&gt;
-</code></pre></div><h4 id="debugging-a-running-application">Debugging a running application</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker-compose run &lt;service, ex.: app&gt; &lt;command, ex.: docker/restore_database.sh&gt;
+</span></span></code></pre></div><h4 id="debugging-a-running-application">Debugging a running application</h4>
 <p>Should there be the need to debug the application with a <code>binding.pry</code> you will need to attach to the running container. By default this is not an
 easy task with docker. That&rsquo;s why we introduced the <code>stdin_open/tty</code> settings in the <code>docker-compose.yml</code> file for the app service.</p>
 <ol>
 <li>Issue a docker ps to get the running containers</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-5b5af2b45984        pdf_service         <span style="color:#e6db74">&#34;bundle exec sidekiq&#34;</span>    <span style="color:#ae81ff">8</span> minutes ago       Up <span style="color:#ae81ff">7</span> minutes        3000/tcp                 icn-pdf-service_worker_1
-8d365bf441c3        pdf_service         <span style="color:#e6db74">&#34;/entrypoint.sh&#34;</span>         <span style="color:#ae81ff">8</span> minutes ago       Up <span style="color:#ae81ff">7</span> minutes        0.0.0.0:3000-&gt;3000/tcp   icn-pdf-service_app_1
-96d90169a904        redis:alpine        <span style="color:#e6db74">&#34;docker-entrypoint.s…&#34;</span>   <span style="color:#ae81ff">10</span> minutes ago      Up <span style="color:#ae81ff">7</span> minutes        6379/tcp                 icn-pdf-service_redis_1
-</code></pre></div><ol start="2">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker ps
+</span></span><span style="display:flex;"><span>CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+</span></span><span style="display:flex;"><span>5b5af2b45984        pdf_service         <span style="color:#e6db74">&#34;bundle exec sidekiq&#34;</span>    <span style="color:#ae81ff">8</span> minutes ago       Up <span style="color:#ae81ff">7</span> minutes        3000/tcp                 icn-pdf-service_worker_1
+</span></span><span style="display:flex;"><span>8d365bf441c3        pdf_service         <span style="color:#e6db74">&#34;/entrypoint.sh&#34;</span>         <span style="color:#ae81ff">8</span> minutes ago       Up <span style="color:#ae81ff">7</span> minutes        0.0.0.0:3000-&gt;3000/tcp   icn-pdf-service_app_1
+</span></span><span style="display:flex;"><span>96d90169a904        redis:alpine        <span style="color:#e6db74">&#34;docker-entrypoint.s…&#34;</span>   <span style="color:#ae81ff">10</span> minutes ago      Up <span style="color:#ae81ff">7</span> minutes        6379/tcp                 icn-pdf-service_redis_1
+</span></span></code></pre></div><ol start="2">
 <li>Attach to the container running the app, in this case <code>8d365bf441c3</code> (or <code>8d3</code>)</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ docker attach 8d3
-</code></pre></div><ol start="3">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker attach 8d3
+</span></span></code></pre></div><ol start="3">
 <li>Use <code>binding.pry</code> as you normally do</li>
 </ol>
 <h2 id="some-usefull-links">Some usefull links</h2>
@@ -326,7 +320,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2021</span>
+            <span>&copy; 2022</span>
             
                 <span><a href="https://www.hugocurado.info/">Hugo Curado</a></span>
             
@@ -350,7 +344,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 
 
-<script type="text/javascript" src="https://www.hugocurado.info/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+<script type="text/javascript" src="https://www.hugocurado.info/bundle.min.2e41f03d11de0d5dcc199de839278d4b9fa963ed506d9a7a6af7b179daea5ee06f66c705680d8f31c657b4cb31ed50b710dd9250c4b6c6e2eae9bbdf2a1e391f.js" integrity="sha512-LkHwPRHeDV3MGZ3oOSeNS5&#43;pY&#43;1QbZp6avexedrqXuBvZscFaA2PMcZXtMsx7VC3EN2SUMS2xuLq6bvfKh45Hw=="></script>
 
 
 

@@ -15,7 +15,7 @@
       
       <guid>https://www.hugocurado.info/posts/2020/04/docker-as-a-development-environment/</guid>
       <description>Docker is the leading technology in microservices. As stated by Flexera&amp;rsquo;s State of the Cloud Survey, of February 27, 2019, Docker container adoption is of 57%, AWS&amp;rsquo;s EKS/ECS adoption is of 44%. Showing a real tendency by developers to move from bare metal to containers.
-The article will focus on Docker essentials and answering questions like &amp;lsquo;What is Docker?&#39;, &amp;lsquo;Is it a virtualization solution?&#39;, &amp;lsquo;What are images/containers/volumes&amp;hellip;?&#39;.
+The article will focus on Docker essentials and answering questions like &amp;lsquo;What is Docker?&amp;rsquo;, &amp;lsquo;Is it a virtualization solution?&amp;rsquo;, &amp;lsquo;What are images/containers/volumes&amp;hellip;?&amp;rsquo;.
 Some key concepts Containers A container is a standardized unit of software that allows you to run your application independent of host conditions, making sure the application runs under the same conditions.</description>
     </item>
     
@@ -25,15 +25,12 @@ Some key concepts Containers A container is a standardized unit of software that
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.hugocurado.info/about/</guid>
-      <description>PICTURE: NAME: Hugo Curado
-CITY: Cascais, Portugal
-OCUPATION: Associate DevOps @ iCapital Network
- Work [Sep 2018 - Nov 2020]
-Full Stack Developer @ Runtime Revolution
-Education [2020]
-Bachelor in Information Technology @ Faculdade de Ciências da Universidade de Lisboa
-[2014]
-Basic Education @ Colégio Marista de Carcavelos</description>
+      <description>PICTURE: NAME: Hugo Curado CITY: Cascais, Portugal OCUPATION: AVP DevOps @ iCapital
+ Work [Feb 2022 - Present] AVP DevOps @ iCapital
+[Nov 2020 - Feb 2022] Associate DevOps @ iCapital
+[Sep 2018 - Nov 2020] Full Stack Developer @ Runtime Revolution
+Education [2020] Bachelor in Information Technology @ Faculdade de Ciências da Universidade de Lisboa
+[2014] Basic Education @ Colégio Marista de Carcavelos</description>
     </item>
     
     <item>
