@@ -12,10 +12,16 @@ title: About
 **PICTURE:** {{< image src="/img/about/author.jpg" alt="Hugo's Portrait" position="left" style="border-radius: 8px; max-width: 30%" >}} \
 **NAME:** Hugo Curado \
 **CITY:** Cascais, Portugal \
-**OCUPATION:** Associate DevOps @ [iCapital Network](https://www.icapitalnetwork.com)
+**OCUPATION:** AVP DevOps @ [iCapital](https://www.icapitalnetwork.com)
 
 ---
 ## Work
+**[Feb 2022 - Present]** \
+AVP DevOps @ [iCapital](https://www.icapitalnetwork.com)
+
+**[Nov 2020 - Feb 2022]** \
+Associate DevOps @ [iCapital](https://www.icapitalnetwork.com)
+
 **[Sep 2018 - Nov 2020]** \
 Full Stack Developer @ [Runtime Revolution](https://www.runtime-revolution.com)
 
